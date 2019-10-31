@@ -1,0 +1,38 @@
+.project
+*.iml
+.settings/
+.idea/
+.lock
+
+# Ignore OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.~lock.*
+*.swp
+nohup.out
+
+#tmp node dir
+node*
+.npmrc
+
+#node env configuration
+.env
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules

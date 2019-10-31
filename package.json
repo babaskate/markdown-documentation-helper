@@ -1,0 +1,26 @@
+{
+  "name": "markdown-documentation-helper",
+  "version": "0.0.1",
+  "description": "A helper module that utilized jsdoc-to-markdown to create markdown documentation of javascript modules that use jsdoc in bulk.",
+  "main": "index.js",
+  "bin": {
+    "markdown-documentation-helper": "bin/cli.js"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "documentation",
+    "jsdoc",
+    "jsdoc-to-markdown",
+    "javascript"
+  ],
+  "author": "Andrew Babaian",
+  "license": "MIT",
+  "dependencies": {
+    "jsdoc-to-markdown": "^5.0.2"
+  }
+}
